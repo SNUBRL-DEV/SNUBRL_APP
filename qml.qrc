@@ -6,5 +6,7 @@
         <file>BtnSlim.qml</file>
         <file>ControlSlot.qml</file>
         <file>GradientSlider.qml</file>
+        <file>MotorSetting.qml</file>
+        <file>MotorSetting_Main.qml</file>
     </qresource>
 </RCC>

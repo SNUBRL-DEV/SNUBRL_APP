@@ -64,7 +64,7 @@ Item {
 
                 BtnRound{
                     btnLabel : "Pos"
-                    btnLight : false
+                    btnLight : falsess
                     btnSize : 40
                 }
 

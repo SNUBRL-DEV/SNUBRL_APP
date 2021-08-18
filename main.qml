@@ -8,15 +8,25 @@ import QtQuick.Shapes 1.12
 Window {
     id: window
     visible: true
-    width: 640
-    height: 1000
+    width: 1280
+    height: 750
     title: qsTr("Hello World")
 
     Rectangle{
+        height: 750
+        color: "#33383d"
         anchors.fill : parent
+        anchors.rightMargin: 0
+        anchors.bottomMargin: 0
         gradient: Gradient {
             GradientStop { position: 0.0; color: "#33383D" }
+            GradientStop {
+                position: 0.79401
+                color: "#33383d"
+            }
+
             GradientStop { position: 1.0; color: "#1C1D20" }
+
         }
     }
 

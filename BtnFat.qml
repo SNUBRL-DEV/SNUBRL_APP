@@ -10,6 +10,7 @@ Item {
 
 
     height: btnSize
+    property alias rect: rect
     width: height * 2.2
 
     MouseArea {
@@ -53,6 +54,7 @@ Item {
         anchors.centerIn: parent
         width: parent.height
         height: parent.width
+        color: "#000000"
         radius: width * 0.4
         border.width: 0
         rotation: 90
